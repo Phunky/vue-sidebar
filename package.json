@@ -1,0 +1,36 @@
+{
+  "scripts": {
+    "dev": "webpack-dev-server --inline --hot --progress --host 0.0.0.0 --config build/webpack.dev.config.js --content-base example/",
+    "build": "cross-env NODE_ENV=production webpack --progress --hide-modules --config build/webpack.prod.config.js"
+  },
+  "dependencies": {
+    "vue": "^1.0.16",
+    "vue-svg-directive": "^0.0.4"
+  },
+  "devDependencies": {
+    "babel-core": "^6.3.17",
+    "babel-loader": "^6.2.0",
+    "babel-plugin-transform-runtime": "^6.3.13",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-preset-stage-0": "^6.5.0",
+    "babel-runtime": "^5.8.34",
+    "cross-env": "^1.0.7",
+    "css-loader": "^0.23.0",
+    "jade": "^1.11.0",
+    "node-sass": "^3.4.2",
+    "sass-loader": "^3.1.2",
+    "template-html-loader": "0.0.3",
+    "vue-hot-reload-api": "^1.2.2",
+    "vue-html-loader": "^1.0.0",
+    "vue-loader": "^8.0.0",
+    "vue-style-loader": "^1.0.0",
+    "webpack": "^1.12.9",
+    "webpack-dev-server": "^1.14.0"
+  },
+  "name": "vue-sidebar",
+  "version": "1.0.0",
+  "main": "dist/vue-sidebar.js",
+  "author": "Mark Harwood",
+  "license": "MIT",
+  "description": "A sidebar component for VueJS inspired by Google's Material Design Navigation Draw spec."
+}
