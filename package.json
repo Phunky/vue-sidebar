@@ -28,7 +28,7 @@
     "webpack-dev-server": "^1.14.0"
   },
   "name": "vue-sidebar",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "dist/vue-sidebar.js",
   "author": "Mark Harwood",
   "license": "MIT",
