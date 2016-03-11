@@ -5,7 +5,6 @@ config.entry  = './src/vue-sidebar'
 config.output = {
   path     : './dist',
   filename : 'vue-sidebar.js',
-  library: 'VueSidebar',
   libraryTarget: "umd"
 }
 

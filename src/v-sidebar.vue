@@ -16,7 +16,7 @@
     min-width  : 300px;
     max-width  : 70vw;
     background : #fff;
-    overflow   : scroll;
+    overflow   : auto;
     z-index    : 10;
 
     &.v-transition {
